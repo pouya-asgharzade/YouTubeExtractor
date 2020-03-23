@@ -1,5 +1,5 @@
 # YouTubeExtractor
-`ouTubeExtractor is a library for download videos from YouTube or download audio files`
+ouTubeExtractor is a library for download videos from YouTube or download audio files
 
 # Value Types
 UrlTypes
