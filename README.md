@@ -28,3 +28,29 @@ GetVideoAsync
 ExtractCustomUrl
 - Get url with custom (Size,OutputType,Quality,ExtractType)
 
+
+# Usage 
+
+```c#
+
+var MyClient = new System.Net.Http.HttpClient();
+YouTubeExtractor.Extractor Extractor = new YouTubeExtractor.Extractor(MyClient);
+
+var ExtractedVideo = await Extractor.GetVideoAsync("https://www.youtube.com/watch?v=U-tropVp94k");
+
+```
+# Get info
+```c#
+
+Console.WriteLine("Title : " + ExtractedVideo.Info.Title);
+Console.WriteLine("Channel : " + ExtractedVideo.Info.Channel);
+Console.WriteLine("Description : " + ExtractedVideo.Info.Description);
+Console.WriteLine("Subscribers : " + ExtractedVideo.Info.Subscribers);
+Console.WriteLine("ChannelLogo : " + ExtractedVideo.Info.Title);
+Console.WriteLine("Thumbnail : " + ExtractedVideo.Info.Title);
+Console.WriteLine("View : " + ExtractedVideo.Info.View);
+Console.WriteLine("Like : " + ExtractedVideo.Info.Like);
+Console.WriteLine("DisLike : " + ExtractedVideo.Info.DisLike);
+Console.WriteLine("Duration : " + ExtractedVideo.Info.Duration);
+
+```
