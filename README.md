@@ -54,3 +54,26 @@ Console.WriteLine("DisLike : " + ExtractedVideo.Info.DisLike);
 Console.WriteLine("Duration : " + ExtractedVideo.Info.Duration);
 
 ```
+# Get custom download url
+```c#
+
+Url ExtractedURL = Extractor.ExtractCustomUrl(
+  UrlEnum.UrlTypes.VideoMP4,
+  UrlEnum.OutPutType.VideoOnly,
+  UrlEnum.Quality.Medium360,
+  ExtractedVideo.URL);
+  
+Console.WriteLine(ExtractedURL.URL);
+```
+- With filter size
+```c#
+
+Url ExtractedURL = Extractor.ExtractCustomUrl(
+  new Filter(OperatorEnum.Operators.Smaller, 30000000),
+  UrlEnum.UrlTypes.VideoMP4,
+  UrlEnum.OutPutType.VideoOnly,
+  UrlEnum.Quality.Medium360,
+  ExtractedVideo.URL);
+  
+Console.WriteLine(ExtractedURL.URL);
+```
