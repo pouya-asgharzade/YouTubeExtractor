@@ -65,7 +65,7 @@ Url ExtractedURL = Extractor.ExtractCustomUrl(
   
 Console.WriteLine(ExtractedURL.URL);
 ```
-- With filter size
+- With size restrictions
 ```c#
 
 Url ExtractedURL = Extractor.ExtractCustomUrl(
@@ -77,3 +77,7 @@ Url ExtractedURL = Extractor.ExtractCustomUrl(
   
 Console.WriteLine(ExtractedURL.URL);
 ```
+
+
+# Me
+[Telegram](t.me/theVinak)
