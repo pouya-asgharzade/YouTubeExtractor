@@ -5,9 +5,11 @@
 UrlTypes
 - Specifies the type of output file
 - for example : UrlTypes.VideoMP4 or UrlTypes.AudioMP4
+
 Quality
 - Specifies the quality of output file
 - for example : Quality.Medium360 or Quality.High720
+
 OutPutType
 - Specifies the type to extract
 - for example : OutPutType.Muxed or OutPutType.AudioOnly
