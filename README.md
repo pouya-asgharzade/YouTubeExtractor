@@ -18,14 +18,17 @@ OutPutType
 # Url Types
 Muxed
 - Sound and image composition
+
 VideoOnly
 - Only video
+
 AudioOnly
 - Only audio
 
 # Methods
 GetVideoAsync
 - Get information and urls
+
 ExtractCustomUrl
 - Get url with custom (Size,OutputType,Quality,ExtractType)
 
