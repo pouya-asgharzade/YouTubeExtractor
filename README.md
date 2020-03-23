@@ -17,7 +17,7 @@ OutPutType
 
 # Url Types
 Muxed
-- audio and video composition
+- Audio and video composition
 
 VideoOnly
 - Only video
